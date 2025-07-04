@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Tabs from 'primevue/tabs';
-import Overview from './OverviewView.vue';
-import RecentSales from './RecentSales.vue';
+// import Tabs from 'primevue/tabs';
+// import Overview from './OverviewView.vue';
+// import RecentSales from './RecentSales.vue';
 </script>
 
 <template>
@@ -130,6 +130,8 @@ import RecentSales from './RecentSales.vue';
         </div>
       </TabsContent>
     </Tabs>
+
+    
   </div>
 </template>
 

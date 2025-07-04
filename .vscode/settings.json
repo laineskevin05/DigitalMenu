@@ -14,4 +14,7 @@
         "vue",
         "typescript"
     ],
+    "i18n-ally.localesPaths": [
+        "src/locales"
+    ],
 }

@@ -1,13 +1,16 @@
 <template>
-  <div class="app-layout h-dvh grid grid-cols-[auto_1fr]">
+  <div class="layout-wrapper layout-sidebar-light layout-card-filled layout-static">
     <AppSidebar />
-    <div class="app-container">
-      <AppHeader />
-      <AppContent>
-        <div v-if="isLoading" class="flex justify-center">Loading...</div>
-        <UnauthorizeView v-else-if="!isAuthorized" />
-        <RouterView v-else />
-      </AppContent>
+    <div class="layout-content-wrapper">
+      <div class="layout-content-wrapper-inside">
+
+        <AppHeader />
+        <AppContent>
+          <div v-if="isLoading" class="flex justify-center">Loading...</div>
+          <UnauthorizeView v-else-if="!isAuthorized" />
+          <RouterView v-else />
+        </AppContent>
+      </div>
     </div>
   </div>
 </template>

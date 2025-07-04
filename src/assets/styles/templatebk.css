@@ -1,0 +1,47 @@
+.layout-wrapper{
+  height: 100vh;
+  display: flex;
+  transition: 0.2s;
+}
+
+.layout-sidebar-light {
+  --d-sidebar-bg-color: #ffffff;
+  --d-sidebar-bg-color-alt: #ffffff;
+  --d-sidebar-border: 1px solid var(--surface-border);
+  --d-app-name-color: var(--p-surface-950);
+  --d-menu-separator-border: 1px solid var(--surface-border);
+  --d-menuitem-root-text-color: var(--p-surface-500);
+  --d-menuitem-text-color: var(--p-surface-500);
+  --d-menuitem-hover-bg: var(--surface-hover);
+  --d-menuitem-active-bg: var(--p-surface-50);
+  --d-menuitem-active-text-color: var(--p-surface-950);
+  --d-menuitem-focus-shadow: 0 0 0 .2rem rgba(255, 255, 255, .1);
+}
+
+.layout-sidebar {
+  background-position-x: ;
+  background-position-y: ;
+  background-size: ;
+  background-repeat: ;
+  background-attachment: ;
+  background-origin: ;
+  background-clip: ;
+  background-color: ;
+  background-image: linear-gradient(135deg,var(--d-sidebar-bg-color),var(--d-sidebar-bg-color-alt));
+  height: 100%;
+  z-index: 10;
+  border-right: var(--d-sidebar-border);
+}
+
+.layout-sidebar {
+  margin-left: 0px;
+  width: 17rem;
+  height: 100%;
+  box-shadow: rgba(18, 18, 23, 0.05) 0px 1px 2px;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  border-radius: 0px 1.5rem 1.5rem 0px;
+  overflow: hidden;
+  transition: margin 0.4s cubic-bezier(0.05, 0.74, 0.2, 0.99), transform 0.4s cubic-bezier(0.05, 0.74, 0.2, 0.99);
+}
